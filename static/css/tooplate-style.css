@@ -25,6 +25,26 @@ body {
   overflow-x: hidden;
 }
 
+.buttonimg {
+  max-width:50px;
+  max-height:50px;
+  width: auto;
+  height: auto;
+  
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 textarea {
   font-family: "Open Sans", sans-serif;
 }
