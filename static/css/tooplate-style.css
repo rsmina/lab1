@@ -1,8 +1,4 @@
-/* 
-
-Template 2110 Character
-http://www.tooplate.com/view/2110-character
-
+/*
 
 COLORS 
 
@@ -30,12 +26,12 @@ body {
   max-height:50px;
   width: auto;
   height: auto;
-  
+  float: left;
 }
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 15%;
 }
 
 /* Clear floats after image containers */
